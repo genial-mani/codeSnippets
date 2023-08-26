@@ -64,7 +64,6 @@
     height: 40px;
     border-radius: 50%;
     background-color: grey;
-    animation: vibrate .5s infinite;
 }
 
 li{
@@ -115,17 +114,6 @@ li{
     }
 }
 
-@keyframes vibrate {
-    0%{
-        transform: none;
-    }
-    50%{
-        transform: rotateZ(10deg);
-    }
-    100%{
-        transform: rotateZ(-10deg);
-    }
-}
 
 
 
